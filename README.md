@@ -23,32 +23,31 @@ Installazione
 
 
 *Clonare il repository
-Copy code:
-1) git clone [URL del repository]
+Copy code:                                                                                                                                                                                                                                                    
+1) git clone [URL del repository]                                                                                                                                                                                                                                                        
 
 
 *Installare le dipendenze Composer
-Copy code:
-2) composer install
+Copy code:                                                                                                                                                                                                                                                                        
+2) composer install                                                                                                                                                                                                                                                                          
 
 
 *Configurare l'ambiente
-Copy code
-3) cp .env.example .env
+Copy code                                                                                                                                                                                                                                                           
+3) cp .env.example .env                                                                                                                                                                                                                                                    
 (Modificare .env appena creato con il comando subito sopra, con le impostazioni del database e altre configurazioni necessarie.)
 
 
 *Generare la chiave dell'applicazione
-Copy code
-4) php artisan key:generate
+Copy code                                                                                                                                                                                                                                                           
+4) php artisan key:generate                                                                                                                                                                                                                                                                                                                                 
+
+*Eseguire le migrazioni e i seeders                                                                                                                                                                                     
+Copy code                                                                            
+5)php artisan migrate --seed                                                                                                                                                                                                                               
 
 
-*Eseguire le migrazioni e i seeders
-Copy code
-5)php artisan migrate --seed
-
-
-*Avvio progetto
+*Avvio progetto                                                                                                                                                                                                                
 6-1) php artisan serve
 6-2) npm run dev
 6-3) php artisan queue:work
