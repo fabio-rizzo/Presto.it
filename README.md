@@ -38,8 +38,8 @@ Copy code:
 
 
 *Configurare l'ambiente
-Copy code                                                                                                                                                                                                                                                           
-3. cp .env.example .env                                                                                                                                                                                                                                                    
+Copy code                                                                                                                                                                                                                                                  
+3. move .env.example .env                                                                                                                                                                                                                                                    
 (Modificare .env appena creato con il comando subito sopra, con le impostazioni del database e altre configurazioni necessarie.)
 
 
