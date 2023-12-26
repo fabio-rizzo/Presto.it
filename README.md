@@ -20,6 +20,8 @@ Altri requisiti specifici del progetto
 Installazione
 
 -------bash----------------------------------
+
+
 *Clonare il repository
 Copy code:
 1) git clone [URL del repository]
