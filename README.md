@@ -1,7 +1,12 @@
 # Presto.it
-Titolo del Progetto
+
 Descrizione
-Questa applicazione Laravel è una piattaforma di annunci che consente la vendita tra privati. Gli utenti possono inserire annunci che saranno revisionati dai revisori che possono accettarli o rifiutarli. 
+Questa applicazione Laravel è una piattaforma di annunci che consente la vendita tra privati. 
+Gli utenti possono inserire annunci che saranno revisionati dai Revisori che possono accettarli o rifiutarli, posso modificare i propri annunci che ritorneranno in revisione,
+o richiedere di collaborare con lo Staff e quindi diventare Revisori.
+I Revisori come qualsiasi altro utente, puo creare e modificare un annuncio, l'annuncio creato non entrerà in revisione ma ben si direttamente nella lista degli annnunci già 
+revisionati, essendo Revisore possiede anche un'apposita pagina nella quale puo' revisionare gli annunci creati dagli utenti, che non siano Revisori o Admin.
+Anche L'Admin puo creare dei contenuti per il sito, ma cosa piu importante, possiede il potere di modificare il ruolo degli User (Editor - Revisor), o eliminare l'account di un User.
 L'applicazione integra Bootstrap per il front-end, Fortify per l'autenticazione, Spatie per i permessi dei ruoli dei vari utenti, e Google Vision API per l'analisi delle immagini.
 
 Funzionalità
@@ -61,14 +66,4 @@ Passaggi per integrare e utilizzare Google Vision API nell'applicazione.
  -Sostituire le credenziali all'interno del file "google_credential.json", presente della Root del progetto
  
  NB Se non si inseriscono correttamente le credenziali le immagini degli annunci non verrano visualizzate. 
-
- 
-
-Funzionalità
-Questa applicazione Laravel è una piattaforma di annunci che consente la vendita tra privati. 
-Gli utenti possono inserire annunci che saranno revisionati dai revisori che possono accettarli o rifiutarli, posso modificare i propri annunci che ritorneranno in revisione,
-o richiedere di collaborare con lo Staff e quindi diventare Revisori.
-I Revisori come qualsiasi altro utente, puo creare e modificare un annuncio, l'annuncio creato non entrerà in revisione ma ben si direttamente nella lista degli annnunci già 
-revisionati, essendo Revisore possiede anche un'apposita pagina nella quale puo revisionare gli annunci creati dagli utenti, che non siano Revisori o Admin.
-Anche L'Admin puo creare dei contenuti per il sito, ma cosa piu importante, possiede il potere di modificare il ruolo degli User (Editor - Revisor), o eliminare l'account di un User.
 
