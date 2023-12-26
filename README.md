@@ -29,7 +29,7 @@ Installazione
 
 *Clonare il repository
 Copy code:                                                                                                                                                                                                                                                    
-1) git clone [URL del repository]                                                                                                                                                                                                                                                        
+1) git clone [URL del repository]                                                                                                                                                                                                                                                         
 
 
 *Installare le dipendenze Composer
